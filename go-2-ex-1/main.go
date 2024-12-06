@@ -32,12 +32,10 @@ func main() {
 			Year:  1995,
 		},
 		NumberOfSiblings: 1,
-		ZodiacSign:       '♋',
+		ZodiacSign:       '\u264B',
 	}
-	fmt.Println("Profile:", me)
-
-	fmt.Println("Siblings Before:", me.NumberOfSiblings)
-
-	me.NumberOfSiblings += 1
-	fmt.Println("Siblings After:", me.NumberOfSiblings)
+	fmt.Printf("Profile: %s %s, born %d.%d.%d, %d siblings, zodiac: %c\n",
+		me.Name.FirstName, me.Name.LastName,
+		me.BirthDate.Day, me.BirthDate.Month, me.BirthDate.Year,
+		me.NumberOfSiblings, me.ZodiacSign)
 }
