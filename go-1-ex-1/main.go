@@ -16,7 +16,7 @@ var numberOfSiblings int = 3
 
 var heightInMeters float32 = 1.2
 
-var zodiacSign string = "Scorpion"
+var zodiacSign string = "\u264F"
 
 func main() {
 	// TODO: Declare and initialize the variables being used in the output!
