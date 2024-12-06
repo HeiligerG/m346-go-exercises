@@ -2,21 +2,13 @@ package main
 
 import "fmt"
 
-var lastName string = "Last"
+var lastName, firstName = "Last", "First"
 
-var firstName string = "First"
-
-var dayOfBirth int = 12
-
-var monthOfBirth int = 10
-
-var yearOfBirth int = 2000
-
-var numberOfSiblings int = 3
+var monthOfBirth, yearOfBirth, dayOfBirth, numberOfSiblings = 10, 2000, 12, 3
 
 var heightInMeters float32 = 1.2
 
-var zodiacSign string = "\u264F"
+var zodiacSign = '\u264F'
 
 func main() {
 	// TODO: Declare and initialize the variables being used in the output!
